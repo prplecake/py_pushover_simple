@@ -1,0 +1,6 @@
+*~
+*.py[co]
+.DS_*
+build/
+dist/
+*.egg-info/
