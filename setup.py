@@ -11,7 +11,7 @@ setuptools.setup(
     description="A wrapper for sending push notifications with Puhsover",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mtthwjrgnsn/py_pushover_simple",
+    url="https://gitlab.com/matthewjorgensen/py_pushover_simple",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
