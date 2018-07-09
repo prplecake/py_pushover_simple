@@ -28,7 +28,7 @@ This is a very simple python pushover wrapper for sending quick messages from co
 
     For a working demo, see [ippush.py][0]
 
-[0]: https://gitlab.com/matthewjorgensen/ip_push/blob/master/ippush.py
+[0]: https://code.jrgnsn.net/matthew/ip_push/src/branch/master/ippush.py
 
 ## Debugging
 
