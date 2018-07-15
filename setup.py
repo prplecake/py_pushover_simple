@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py_pushover_simple",
-    version="0.1.2",
+    version="0.1.3",
     author="Matthew Jorgensen",
     author_email="matthew@jrgnsn.net",
     description="A wrapper for sending push notifications with Puhsover",
