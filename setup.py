@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py_pushover_simple",
-    version="0.1.3",
+    version="0.1.4",
     author="Matthew Jorgensen",
     author_email="matthew@jrgnsn.net",
     description="A wrapper for sending push notifications with Puhsover",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://code.jrgnsn.net/matthew/py_pushover_simple",
+    url="https://github.com/mtthwjrgnsn/py_pushover_simple",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
