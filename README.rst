@@ -1,6 +1,12 @@
 py_pushover_simple
 ==================
 
+
+.. image:: https://img.shields.io/github/issues/mtthwjrgnsn/py_pushover_simple.svg
+    :alt: GitHub issues
+    :target: https://github.com/mtthwjrgnsn/py_pushover_simple/issues
+
+
 .. image:: https://badge.fury.io/py/py-pushover-simple.svg
     :target: https://badge.fury.io/py/py-pushover-simple.svg
     :alt: PyPi Version
