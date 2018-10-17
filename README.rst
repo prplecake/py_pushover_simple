@@ -42,9 +42,7 @@ Installation Instructions
         p.sendMessage(message)
     
 
-For a working demo, see `ippush.py`_
-
-.. _ipush.py: https://github.com/mtthwjrgnsn/ip_push/src/branch/master/ippush.py
+For a working demo, see `ippush.py <https://github.com/mtthwjrgnsn/ip_push/src/branch/master/ippush.py>`_
 
 Debugging
 ---------
