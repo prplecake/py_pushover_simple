@@ -7,6 +7,11 @@ py_pushover_simple
     :target: https://github.com/mtthwjrgnsn/py_pushover_simple/issues
 
 
+.. image:: https://img.shields.io/github/license/mtthwjrgnsn/py_pushover_simple.svg
+    :alt: GitHub license
+    :target: https://github.com/mtthwjrgnsn/py_pushover_simple/blob/master/LICENSE
+
+
 .. image:: https://badge.fury.io/py/py-pushover-simple.svg
     :target: https://badge.fury.io/py/py-pushover-simple.svg
     :alt: PyPi Version
