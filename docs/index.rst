@@ -12,7 +12,7 @@ from command line scripts.
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Contents:
+   :caption: Contents
 
    installation
    usage
