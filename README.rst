@@ -23,17 +23,15 @@ py_pushover_simple
 
 This is a very simple python pushover wrapper for sending quick messages from command line scripts.
 
-## Installation Instructions
+Installation Instructions
+-------------------------
 
-1. Download from PyPi:
+1. Download from PyPi::
     
-    ```
     python3 -m pip install py_pushover_simple
-    ```
 
-2. Add it to your script:
+2. Add it to your script::
 
-    ```python
     from py_pushover_simple import pushover
 
     def send_message(message):
@@ -42,32 +40,34 @@ This is a very simple python pushover wrapper for sending quick messages from co
         p.token = 'app_token'
 
         p.sendMessage(message)
-    ```
+    
 
-    For a working demo, see `ippush.py`_.
+For a working demo, see `ippush.py`_.
 
 .. _ipush.py: https://github.com/mtthwjrgnsn/ip_push/src/branch/master/ippush.py
 
-## Debugging
+Debugging
+---------
 
-`py_pushover_simple` has some simple debugging features:
+``py_pushover_simple`` has some simple debugging features:
 
-For a full list of arguments:
+For a full list of arguments::
 
-```
-$ python -m py_suchover_simple.pushover -h
-usage: pushover.py [-h] [-u <string>] [-t <string>]
+    $ python -m py_suchover_simple.pushover -h
+    usage: pushover.py [-h] [-u <string>] [-t <string>]
+    
+    optional arguments:
+      -h, --help   show this help message and exit
+      -u <string>  pushover user token
+      -t <string>  pushover app token
 
-optional arguments:
-  -h, --help   show this help message and exit
-  -u <string>  pushover user token
-  -t <string>  pushover app token
-```
 
-## Contributors:
+Contributors
+------------
 
-- Matthew Jorgensen
+* Matthew Jorgensen
 
-## License
+License
+-------
 
 This project is licensed inder the terms of the MIT license.
