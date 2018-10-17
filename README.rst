@@ -4,6 +4,7 @@ py_pushover_simple
 .. image:: https://badge.fury.io/py/py-pushover-simple.svg
 :target: https://badge.fury.io/py/py-pushover-simple.svg
 :alt: PyPi Version
+
 .. image:: https://readthedocs.org/projects/py-pushover-simple/badge/?version=latest
 :target: https://py-pushover-simple.readthedocs.io/en/latest/?badge=latest
 :alt: Documentation Status
