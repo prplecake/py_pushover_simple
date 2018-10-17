@@ -44,9 +44,9 @@ This is a very simple python pushover wrapper for sending quick messages from co
         p.sendMessage(message)
     ```
 
-    For a working demo, see [ippush.py][0]
+    For a working demo, see `ippush.py`_.
 
-[0]: https://code.jrgnsn.net/matthew/ip_push/src/branch/master/ippush.py
+.. _ipush.py: https://github.com/mtthwjrgnsn/ip_push/src/branch/master/ippush.py
 
 ## Debugging
 
