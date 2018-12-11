@@ -9,7 +9,7 @@ This is a very simple python pushover wrapper for sending quick messages from co
 
 1. Download from PyPi:
     
-        python3 -m pip install py_pushover_simple
+        python3 -m pip install py-pushover-simple
 
 2. Add it to your script:
 
@@ -33,7 +33,7 @@ from the [ip_push](https://git.sr.ht/~mjorgensen/ip_push/) project.
 
 For a full list of arguments:
 
-    $ python -m py_suchover_simple.pushover -h
+    $ python -m py_pushover_simple.pushover -h
     usage: pushover.py [-h] [-u <string>] [-t <string>]
     
     optional arguments:
