@@ -1,6 +1,8 @@
 py_pushover_simple
 ==================
 
+[![PyPI version](https://badge.fury.io/py/py-pushover-simple.svg)](https://badge.fury.io/py/py-pushover-simple)
+
 This is a very simple python pushover wrapper for sending quick messages from command line scripts.
 
 ## Installation Instructions
