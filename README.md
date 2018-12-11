@@ -2,12 +2,10 @@ py_pushover_simple
 ==================
 
 [![PyPi Version][pypi-version-img]][pypi-url]
+[![Documentation Status][docStatus-img]][docStatus-url]
 
 [pypi-version-img]: https://badge.fury.io/py/py-pushover-simple.svg
 [pypi-url]: https://pypi.org/project/py-pushover-simple/
-
-[![Documentation Status][docStatus-img]][docStatus-url]
-
 [docStatus-img]: https://readthedocs.org/projects/py-pushover-simple/badge/?version=latest
 [docStatus-url]: https://py-pushover-simple.readthedocs.io/en/latest/?badge=latest
 
