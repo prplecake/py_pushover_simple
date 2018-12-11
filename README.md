@@ -1,18 +1,9 @@
 py_pushover_simple
 ==================
 
-[![PyPi Version][pypi-version-img]][pypi-url]
-[![Documentation Status][docStatus-img]][docStatus-url]
-
-[pypi-version-img]: https://badge.fury.io/py/py-pushover-simple.svg
-[pypi-url]: https://pypi.org/project/py-pushover-simple/
-[docStatus-img]: https://readthedocs.org/projects/py-pushover-simple/badge/?version=latest
-[docStatus-url]: https://py-pushover-simple.readthedocs.io/en/latest/?badge=latest
-
 This is a very simple python pushover wrapper for sending quick messages from command line scripts.
 
-Installation Instructions
--------------------------
+## Installation Instructions
 
 1. Download from PyPi:
     
@@ -34,8 +25,7 @@ For a working demo, see
 [ippush.py](https://git.sr.ht/~mjorgensen/ip_push/tree/master/ippush.py)
 from the [ip_push](https://git.sr.ht/~mjorgensen/ip_push/) project.
 
-Debugging
----------
+## Debugging
 
 `py_pushover_simple` has some simple debugging features:
 
@@ -49,13 +39,14 @@ For a full list of arguments:
       -u <string>  pushover user token
       -t <string>  pushover app token
 
+## Documentation
 
-Contributors
-------------
+Documentation lives at https://man.sr.ht/~mjorgensen/py_pushover_simple
+
+## Contributors
 
 * Matthew Jorgensen
 
-License
--------
+## License
 
 This project is licensed inder the terms of the MIT license.
