@@ -18,7 +18,8 @@ you'll find installation and usage instructions there.
 
 ## Contributing
 
-Please send patches to <~mjorgensen/public-inbox@lists.sr.ht>
+Please send patches to [~mjorgensen/public-inbox@lists.sr.ht]
+(https://lists.sr.ht/~mjorgensen/public-inbox)
 
 ## License
 
