@@ -19,14 +19,14 @@ This is a very simple python pushover wrapper for sending quick messages from co
 
 2. Add it to your script:
 
-    from py_pushover_simple import pushover
+        from py_pushover_simple import pushover
 
-    def send_message(message):
-        p = pushover.Pushover()
-        p.user = 'user key'
-        p.token = 'app token'
+        def send_message(message):
+            p = pushover.Pushover()
+            p.user = 'user key'
+            p.token = 'app token'
 
-        p.sendMessage(message)
+            p.sendMessage(message)
 
 For a working demo, see [ippush.py] from the [ip_push] project.
 
