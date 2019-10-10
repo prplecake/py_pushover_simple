@@ -1,0 +1,32 @@
+# Changelog
+
+## [No Version Change] - 2019-10-10
+### Changed
+- Improved and consolidated documentation
+    + Improved `README.md`
+    + Moved changelog from wiki to this file here
+
+## [0.2.1] - 2018-12-11
+### Added
+- Added metadata to `setup.py`
+    + Added PyPi classifications
+    + Added URLs to:
+        * issue tracker
+        * wiki
+        * source code
+- Fixed spelling errors in `README.md` and `setpu.py`
+
+## [0.2.0] - 2018-12-11
+### Added
+- Increased support for Pushover's API parameters
+- Added support for the following parameters:
+    + `title`
+    + `priority`
+        * `expire`
+        * `retry`
+    + `sound`
+    + `timestamp`
+
+### Changed
+- Modified argparse
+    + Added names to variables
