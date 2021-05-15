@@ -60,10 +60,6 @@ class Pushover:
         else:
             return True
 
-        self.data = data
-
-        return self
-
 
 def main():
     args = argParse()
