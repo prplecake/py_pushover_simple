@@ -5,7 +5,7 @@ import os.path
 import json
 
 
-def argParse():
+def arg_parse():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-u', '--user_key', metavar='<string>', help='pushover user token')
@@ -34,7 +34,7 @@ class Pushover:
         self.retry = retry
         self.expire = expire
 
-    def sendMessage(self, message):
+    def send_message(self, message):
         conn = http.client.HTTPSConnection("api.pushover.net:443")
         conn.request("POST", "/1/messages.json",
                      urllib.parse.urlencode({
@@ -62,15 +62,15 @@ class Pushover:
 
 
 def main():
-    args = argParse()
+    args = arg_parse()
 
-    userKeySet = args.user_key or args.user_key == ""
-    appTokenSet = args.app_token or args.app_token == ""
+    user_key_set = args.user_key or args.user_key == ""
+    app_token_set = args.app_token or args.app_token == ""
 
-    print(userKeySet)
-    print(appTokenSet)
+    print(user_key_set)
+    print(app_token_set)
 
-    if not userKeySet or not appTokenSet:
+    if not user_key_set or not app_token_set:
         # Handle this better... If not set, ask user.
         print("Set user key and token with -u and -t respectively.")
         print("Exiting...")
@@ -83,7 +83,7 @@ def main():
     p.user = user
     p.token = token
     p.title = os.path.basename(__file__)
-    p.sendMessage("Testing pushover.py...")
+    p.send_message("Testing pushover.py...")
 
 
 if __name__ == '__main__':
