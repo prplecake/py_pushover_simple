@@ -15,7 +15,7 @@ This is a very simple python pushover wrapper for sending quick messages from co
 
     or, clone the repository:
 
-        git clone https://github.com/prplecake/py_pushover_simple
+        git clone https://git.sr.ht/~mjorgensen/py_pushover_simple
 
 2. Add it to your script:
 
@@ -44,5 +44,20 @@ For a full list of arguments:
       -u <string>  pushover user token
       -t <string>  pushover app token
 
-[ippush.py]:https://github.com/prplecake/ip_push/blob/master/ippush.py
-[ip_push]:https://github.com/prplecake/ip_push/
+[ippush.py]:https://git.sr.ht/~mjorgensen/ip_push/tree/master/ippush.py
+[ip_push]:https://git.sr.ht/~mjorgensen/ip_push/
+
+## Resources
+
+Discussion and patches are welcome at my public inbox: 
+[~mjorgensen/public-inbox@lists.sr.ht][list]. Please use `--send-prefix PATCH
+py_pushover_simple` for clarity when sending patches.
+
+Bugs, issues, and tasks are in the tracker:
+[~mjorgensen/py\_pushover\_simple][todo]
+
+This project is licensed under the terms of the MIT license.
+
+[man]: https://man.sr.ht/~mjorgensen/py_pushover_simple
+[todo]: https://todo.sr.ht/~mjorgensen/py_pushover_simple
+[list]: https://lists.sr.ht/~mjorgensen/public-inbox
