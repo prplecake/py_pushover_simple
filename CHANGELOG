@@ -1,6 +1,10 @@
 # Changelog
 
-## [No Version Change] - 2019-10-10
+## [0.3.0] - 2021-08-15
+### Changed
+- Swiched code hosts (no actual code changes)
+
+## [0.2.2] - 2018-12-11
 ### Changed
 - Improved and consolidated documentation
     + Improved `README.md`
