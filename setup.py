@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py_pushover_simple",
-    version="0.3.0",
+    version="0.3.1",
     author="Matthew Jorgensen",
     author_email="matthew@jrgnsn.net",
     description="A wrapper for sending push notifications with Pushover",
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://git.sr.ht/~mjorgensen/py_pushover_simple",
     project_urls={
+        "Documentation": "https://man.sr.ht/~mjorgensen/py_pushover_simple",
         "Code": "https://git.sr.ht/~mjorgensen/py_pushover_simple",
         "Issue Tracker": "https://todo.sr.ht/~mjorgensen/py_pushover_simple",
     },
