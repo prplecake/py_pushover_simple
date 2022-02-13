@@ -3,6 +3,8 @@ import setuptools
 with open("README.md", "r") as fh:
     readme = fh.read()
 
+REPO = "https://github.com/prplecake/py_pushover_simple"
+
 setuptools.setup(
     name="py_pushover_simple",
     version="0.3.1",
@@ -11,11 +13,11 @@ setuptools.setup(
     description="A wrapper for sending push notifications with Pushover",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://git.sr.ht/~mjorgensen/py_pushover_simple",
+    url="https://github.com/prplecake/py_pushover_simple",
     project_urls={
-        "Documentation": "https://man.sr.ht/~mjorgensen/py_pushover_simple",
-        "Code": "https://git.sr.ht/~mjorgensen/py_pushover_simple",
-        "Issue Tracker": "https://todo.sr.ht/~mjorgensen/py_pushover_simple",
+        "Documentation": f"{REPO}/wiki",
+        "Code": REPO,
+        "Issue Tracker": f"{REPO}/issues",
     },
     packages=setuptools.find_packages(),
     classifiers=(
