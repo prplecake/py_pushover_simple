@@ -8,13 +8,15 @@ import json
 def arg_parse():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-u', '--user_key', metavar='<string>', help='pushover user token')
-    parser.add_argument('-t', '--app_token', metavar='<string>', help='pushover app token')
-
+    parser.add_argument(
+        '-u', '--user_key', metavar='<string>', help='pushover user token')
+    parser.add_argument(
+        '-t', '--app_token', metavar='<string>', help='pushover app token')
     return parser.parse_args()
 
 
-class PushoverError(Exception): pass
+class PushoverError(Exception):
+    pass
 
 
 class Pushover:
