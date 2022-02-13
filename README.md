@@ -1,5 +1,4 @@
-py\_pushover\_simple
-==================
+# py\_pushover\_simple
 
 [![PyPI version](https://badge.fury.io/py/py-pushover-simple.svg)](https://badge.fury.io/py/py-pushover-simple)
 
@@ -11,22 +10,28 @@ This is a very simple python pushover wrapper for sending quick messages from co
 
     Download from PyPi *(recommended)*:
 
-        python3 -m pip install py-pushover-simple
+    ```shell
+    python3 -m pip install py-pushover-simple
+    ```
 
     or, clone the repository:
 
-        git clone https://git.sr.ht/~mjorgensen/py_pushover_simple
+    ```shell
+    git clone https://git.sr.ht/~mjorgensen/py_pushover_simple
+    ```
 
 2. Add it to your script:
 
-        from py_pushover_simple import pushover
+    ```python
+    from py_pushover_simple import pushover
 
-        def send_message(message):
-            p = pushover.Pushover()
-            p.user = 'user key'
-            p.token = 'app token'
+    def send_message(message):
+        p = pushover.Pushover()
+        p.user = 'user key'
+        p.token = 'app token'
 
-            p.sendMessage(message)
+        p.sendMessage(message)
+    ```
 
 For a working demo, see [ippush.py] from the [ip_push] project.
 
@@ -36,13 +41,15 @@ For a working demo, see [ippush.py] from the [ip_push] project.
 
 For a full list of arguments:
 
-    $ python -m py_pushover_simple.pushover -h
-    usage: pushover.py [-h] [-u <string>] [-t <string>]
+```shell
+$ python -m py_pushover_simple.pushover -h
+usage: pushover.py [-h] [-u <string>] [-t <string>]
 
-    optional arguments:
-      -h, --help   show this help message and exit
-      -u <string>  pushover user token
-      -t <string>  pushover app token
+optional arguments:
+  -h, --help   show this help message and exit
+  -u <string>  pushover user token
+  -t <string>  pushover app token
+```
 
 [ippush.py]:https://git.sr.ht/~mjorgensen/ip_push/tree/master/ippush.py
 [ip_push]:https://git.sr.ht/~mjorgensen/ip_push/
