@@ -28,7 +28,11 @@ class PushoverError(Exception):
 
 
 class Pushover:
-    """A connection to the Pushover API"""
+    """A connection to the Pushover API
+
+    Raises:
+        PushoverError: Pushover API error
+    """
     def __init__(self, user=None, token=None, sound=None,
                  target=None, url=None, url_title=None,
                  title=None, priority=0, timestamp=None,
