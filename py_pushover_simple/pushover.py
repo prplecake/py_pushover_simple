@@ -1,3 +1,10 @@
+"""Python Pushover API wrapper
+
+Python module to access the Pushover <https://pushover.net> API.
+Recommended: Python 3 or later
+
+"""
+
 import http.client
 import urllib
 import argparse
@@ -6,6 +13,7 @@ import json
 
 
 def arg_parse():
+    """Parse command-line arguments."""
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
@@ -16,10 +24,11 @@ def arg_parse():
 
 
 class PushoverError(Exception):
-    pass
+    """Pushover API error"""
 
 
 class Pushover:
+    """A connection to the Pushover API"""
     def __init__(self, user=None, token=None, sound=None,
                  target=None, url=None, url_title=None,
                  title=None, priority=0, timestamp=None,
@@ -37,6 +46,8 @@ class Pushover:
         self.expire = expire
 
     def send_message(self, message):
+        """Send a message using the Pushover API."""
+
         conn = http.client.HTTPSConnection("api.pushover.net:443")
         conn.request("POST", "/1/messages.json",
                      urllib.parse.urlencode({
@@ -64,6 +75,7 @@ class Pushover:
 
 
 def debug():
+    """Debug module."""
     args = arg_parse()
 
     user_key_set = args.user_key or args.user_key == ""
