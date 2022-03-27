@@ -63,7 +63,7 @@ class Pushover:
         return True
 
 
-def main():
+def debug():
     args = arg_parse()
 
     user_key_set = args.user_key or args.user_key == ""
@@ -89,4 +89,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    debug()
