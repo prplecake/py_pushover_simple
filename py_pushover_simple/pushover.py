@@ -59,8 +59,8 @@ class Pushover:
 
         if data['status'] != 1:
             raise PushoverError(output)
-        else:
-            return True
+
+        return True
 
 
 def main():
