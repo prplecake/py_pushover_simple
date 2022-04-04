@@ -7,7 +7,7 @@ REPO = "https://github.com/prplecake/py_pushover_simple"
 
 setuptools.setup(
     name="py_pushover_simple",
-    version="0.4.0",
+    version="0.5.0",
     author="Matthew Jorgensen",
     author_email="matthew@jrgnsn.net",
     description="A wrapper for sending push notifications with Pushover",
