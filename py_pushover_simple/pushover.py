@@ -5,11 +5,10 @@ Recommended: Python 3 or later
 
 """
 
-import http.client
-import urllib
 import argparse
 import os.path
 import json
+import requests
 
 
 def arg_parse():
@@ -52,9 +51,8 @@ class Pushover:
     def send_message(self, message):
         """Send a message using the Pushover API."""
 
-        conn = http.client.HTTPSConnection("api.pushover.net:443")
-        conn.request("POST", "/1/messages.json",
-                     urllib.parse.urlencode({
+        url = "https://api.pushover.net/1/messages.json"
+        r = requests.post(url, data={
                         "url": self.url,
                         "user": self.user,
                         "sound": self.sound,
@@ -67,9 +65,9 @@ class Pushover:
                         "url_title": self.url_title,
                         "retry": self.retry,
                         "expire": self.expire,
-                        }),
-                     {"Content-type": "application/x-www-form-urlencoded"})
-        output = conn.getresponse().read().decode('utf-8')
+        }, headers={"Content-type": "application/x-www-form-urlencoded"}
+        )
+        output = r.text
         data = json.loads(output)
 
         if data['status'] != 1:
