@@ -1,23 +1,18 @@
+[![PyPI version](https://badge.fury.io/py/py-pushover-simple.svg)](https://pypi.org/project/py-pushover-simple/)
+[![CodeFactor](https://www.codefactor.io/repository/github/prplecake/py_pushover_simple/badge)](https://www.codefactor.io/repository/github/prplecake/py_pushover_simple)
 # py\_pushover\_simple
 
-[![PyPI version](https://badge.fury.io/py/py-pushover-simple.svg)](https://pypi.org/project/py-pushover-simple/)
-
-This is a very simple python pushover wrapper for sending quick messages from command line scripts.
+This is a very simple python pushover wrapper for sending quick messages
+from command line scripts.
 
 ## Installation
 
 1. Obtain the code:
 
-    Download from PyPi *(recommended)*:
+    Download from PyPi:
 
     ```shell
-    python3 -m pip install py-pushover-simple
-    ```
-
-    or, clone the repository:
-
-    ```shell
-    git clone https://github.com/prplecake/py_pushover_simple
+    pip install py-pushover-simple
     ```
 
 2. Add it to your script:
